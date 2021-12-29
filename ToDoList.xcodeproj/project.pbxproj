@@ -14,6 +14,8 @@
 		F455A683277B84B200BF8B6E /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F455A681277B84B200BF8B6E /* ToDoList.xcdatamodeld */; };
 		F455A685277B84B400BF8B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F455A684277B84B400BF8B6E /* Assets.xcassets */; };
 		F455A688277B84B400BF8B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F455A686277B84B400BF8B6E /* LaunchScreen.storyboard */; };
+		F455A690277CCFDE00BF8B6E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455A68F277CCFDD00BF8B6E /* CustomTableViewCell.swift */; };
+		F455A692277D051100BF8B6E /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455A691277D051100BF8B6E /* FormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F455A684277B84B400BF8B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F455A687277B84B400BF8B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F455A689277B84B400BF8B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F455A68F277CCFDD00BF8B6E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F455A691277D051100BF8B6E /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				F455A678277B84B200BF8B6E /* AppDelegate.swift */,
 				F455A67A277B84B200BF8B6E /* SceneDelegate.swift */,
 				F455A67C277B84B200BF8B6E /* ViewController.swift */,
+				F455A68F277CCFDD00BF8B6E /* CustomTableViewCell.swift */,
+				F455A691277D051100BF8B6E /* FormViewController.swift */,
 				F455A67E277B84B200BF8B6E /* Main.storyboard */,
 				F455A684277B84B400BF8B6E /* Assets.xcassets */,
 				F455A686277B84B400BF8B6E /* LaunchScreen.storyboard */,
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F455A692277D051100BF8B6E /* FormViewController.swift in Sources */,
 				F455A67D277B84B200BF8B6E /* ViewController.swift in Sources */,
+				F455A690277CCFDE00BF8B6E /* CustomTableViewCell.swift in Sources */,
 				F455A679277B84B200BF8B6E /* AppDelegate.swift in Sources */,
 				F455A67B277B84B200BF8B6E /* SceneDelegate.swift in Sources */,
 				F455A683277B84B200BF8B6E /* ToDoList.xcdatamodeld in Sources */,
